@@ -1,0 +1,174 @@
+body{
+    margin: 0px;
+    padding-top: 85px;
+    padding-left: 120px;
+    padding-right: 20px;
+    background-color: rgb(248, 248, 248);
+    font-family: Arial, Helvetica, sans-serif;
+
+}
+.header{
+    display: flex;
+    flex-direction: row;
+    height: 75px;
+    justify-content: space-between;
+    border: solid rgb(122, 118, 118) 1px;
+    position: fixed;
+    top: 0px;
+    left: 0px;
+    right: 0px;
+    background-color: white;
+    border-bottom-width: 1px;
+    border-bottom-style: solid;
+    border-bottom-color: rgb(248, 248, 248);
+    z-index: 100;
+}
+.left{
+    width:200px ;
+    display: flex;
+    margin-right: 20px;
+}
+.option{
+ width: 100px;
+ align-items: center;
+ margin-left: 10px;
+ margin-right: 20px;
+}
+.logo{
+    width: 200px;
+    margin-right: 20px;
+}
+.middle{
+   
+    flex: 1;
+    max-width: 500px;
+    margin-left: 70px; 
+    margin-right: 35px;
+    display: flex;
+    align-items: center;
+    flex-direction: row;
+}
+.search{
+flex: 1;
+height: 40px;
+padding-left: 10px;
+font-size: 16px;
+border-width: 1px solid rgb(192, 192, 192);
+border-radius: 2px;
+box-shadow: inset 1px 1px 3px
+rgba(0,0,0,0.05);
+width: 0;
+
+}
+.search::placeholder{
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: large;
+    margin-left: 50px;
+}
+.submit,.voice{
+height: 40px;
+width: 60px;
+margin-right: 3px;
+border-color: rgb(236, 218, 218);
+position: relative;
+
+}
+.voice,
+.create,
+.apps,
+.notifi,
+.dp{
+position: relative;
+}
+.submit .toolkit,
+.voice .toolkit,
+.create .toolkit,
+.apps .toolkit,
+.notifi .toolkit,
+.dp .toolkit{
+    background-color: grey;
+    color: white;
+    position: absolute;
+    bottom: -40px;
+    font-family: Arial, Helvetica, sans-serif;
+    height: 25px;
+    border-radius: 3px;
+    font-size: small;
+    align-items: center;
+    padding-top: 9px;
+    opacity: 0;
+    transition: opacity 0.15s ;
+    pointer-events: none;
+    white-space: nowrap;
+    padding-left: 10px;
+    padding-right: 10px;
+    
+    
+
+}
+.submit:hover .toolkit,
+.voice:hover .toolkit,
+.create:hover .toolkit,alert("hello\nworld");
+
+.notifi:hover .toolkit,
+.apps:hover .toolkit,
+.dp:hover .toolkit{
+    opacity: 1;
+}
+.mic{
+    height: 40px;
+    width: 40px;
+    border-radius: 30px;
+
+}
+.right{
+
+    width: 250px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-right: 20px;
+    flex-shrink: 0px;
+}
+.video{
+height: 50px;
+}
+.extra{
+height: 50px;
+}
+.notification{
+height: 50px;
+}
+.profile{
+height: 50px;
+width: 50px;
+object-fit: cover;
+border-radius: 25px;
+
+}
+.sidebaar{
+
+    position: fixed;
+    top: 75px;
+    bottom: 0px;
+    left: 0px;
+    width: 100px;
+}
+.link{
+    
+    height: 127px;
+    margin-bottom: 1px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+
+}
+.link:hover{
+    background-color: rgb(240, 239, 239);
+}
+.abc{
+height: 35px;
+margin-bottom:8px;
+font-family: Arial, Helvetica, sans-serif;
+}
